@@ -35,3 +35,15 @@ const sumArray = arr => {
 
 }
 console.log(sumArray(numbers))
+
+//forEach
+let sum = 0;
+const number = [1, 2, 3, 4, 5];
+number.forEach(num => console.log(num))
+console.log(sum)
+
+//Map
+const array = [1, 2, 3, 4, 5]
+const numbersSquare = array.map((num) => num * num)
+
+console.log(numbersSquare)

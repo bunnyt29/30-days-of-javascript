@@ -1,0 +1,15 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.inner_container{
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
